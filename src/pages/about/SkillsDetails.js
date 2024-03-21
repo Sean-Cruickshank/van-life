@@ -50,7 +50,7 @@ export default function HardSkillsDetails() {
 
   if (skillData.id === undefined) {
     return (
-      <div className='about-skilldetails'>
+      <div className='container about-skilldetails'>
         <Link to='/about/skills'><FaArrowLeft /> Back to Skills</Link>
 
         <div className='about-skilldetails-container'>
@@ -62,7 +62,7 @@ export default function HardSkillsDetails() {
   }
   
   return (
-    <div className='about-skilldetails'>
+    <div className='container about-skilldetails'>
       <Link to='/about/skills'><FaArrowLeft /> Back to Skills</Link>
 
       <div className='about-skilldetails-container'>
@@ -71,10 +71,9 @@ export default function HardSkillsDetails() {
       </div>
 
       <div className='about-skilldetails-chart'>
-        <h2>- Skill Chart -</h2>
+        <h2>Skill Chart</h2>
         <p>I have ranked my confidence with each skill on a scale of 1 to 5</p>
-        <p>It seems a little arbitrary but hopefully gives a good idea of how confident I feel with each of the skills I have listed here!</p>
-        <p>I hope to expand this list as much as possible in the next few years</p>
+        <p>Hopefully this gives a good idea of how confident I feel with each of the skills I have listed here!</p>
       </div>
 
       <table className='about-skilldetails-table'>

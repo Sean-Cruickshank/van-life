@@ -1,0 +1,95 @@
+/* --- Home Page --- */
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-sectionA {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: auto;
+}
+
+.home-sectionA-text {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.home-image {
+  width: 100%;
+  border: 3px solid yellow;
+  border-radius: 10px;
+}
+
+.home-sectionB {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.home-sectionB p {
+  margin-bottom: 10px;
+}
+
+/* --------------------------------------------- */
+
+/* @media screen size - Extra Large+ */
+@media only screen and (min-width: 1120px) {
+
+}
+
+/* @media screen size - Large */
+@media only screen and (min-width: 992px) and (max-width: 1199.999px) {
+  
+  .home h1 {
+    font-size: 2.85rem;
+  }
+}
+
+/* @media screen size - Medium */
+@media only screen and (min-width: 768px) and (max-width: 991.999px) {
+  
+  .home h1 {
+    font-size: 2.7rem;
+  }
+}
+
+/* @media screen size - Small */
+@media only screen and (min-width: 576px) and (max-width: 767.999px) {
+  
+  .home h1 {
+    font-size: 2.55rem;
+  }
+
+  .home-sectionA-text {
+    width: 90%;
+  }
+
+}
+
+/* @media screen size - Extra Small */
+@media only screen and (max-width: 575.999px) {
+  
+  .home h1 {
+    font-size: 2.4rem;
+  }
+  
+  .home-sectionA {
+    grid-template-columns: 100%;
+  }
+  
+  .home-sectionA-text {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .home-image {
+    width: 60%;
+  }
+  
+  .home-sectionB {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+}

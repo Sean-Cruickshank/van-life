@@ -8,7 +8,7 @@ export const skillsData = [
     description: [
       <p>Like a lot of people, I started web developement with HTML and CSS in notepad when I was in school, when it was just something to do for fun.</p>,
       <p>I feel I have a decent understanding of how these languages work and can usually get the visual style I want out of them. There are definitely still places I can improve, but overall I feel confident writing with HTML and CSS.</p>,
-      <h2>- Bootstrap -</h2>,
+      <h2>Bootstrap</h2>,
       <p>I have used bootstrap in a lot of my projects, and most of the syntax feels natural at this point. It has taken an important role in helping me build dynamic websites!</p>
     ]
   },
@@ -43,7 +43,7 @@ export const skillsData = [
   {
     id: 4,
     url: "wordpress",
-    title: "Wordpress",
+    title: "WordPress",
     description: [
       <p>The first live website I worked on was for a charity in Invercargill and was entirely built in Wordpress as part of the second year of my Bachelor's degree.</p>,
       <p>I worked on the front and backend design of the website, which included working with plugins and themes.</p>
@@ -86,7 +86,7 @@ export const tableData = [
   {name: "JavaScript", score: 4, tag: "javascript"},
   {name: "React", score: 4, tag: "react"},
   {name: "Vue.js", score: 2, tag: "vue"},
-  {name: "Wordpress", score: 3, tag: "wordpress"},
+  {name: "WordPress", score: 3, tag: "wordpress"},
   {name: "C#", score: 3, tag: "c-sharp"},
   {name: "Java", score: 2, tag: "java"},
   {name: "SQL", score: 3, tag: "database-management"},

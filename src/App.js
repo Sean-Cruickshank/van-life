@@ -3,7 +3,7 @@ import Layout from './components/Layout'
 import Home from './pages/Home'
 import About from './pages/about/About'
 import AboutLayout from './pages/about/AboutLayout'
-import Qualifications from './pages/about/Qualifications'
+import Experience from './pages/about/Experience'
 import Skills from './pages/about/Skills'
 import SkillsDetails from './pages/about/SkillsDetails'
 import SoftSkills from './pages/about/SoftSkills'
@@ -22,7 +22,7 @@ export default function App() {
 
           <Route path='about' element={<AboutLayout />}>
             <Route index element={<About />} />
-            <Route path='qualifications' element={<Qualifications />} />
+            <Route path='experience' element={<Experience />} />
             <Route path='skills' element={<Skills />} />
             <Route path='skills/:id' element={<SkillsDetails />} />
             <Route path='skills/soft-skills' element={<SoftSkills />} />

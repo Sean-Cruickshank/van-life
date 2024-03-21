@@ -7,12 +7,8 @@ import Footer from './Footer';
 export default function Layout() {
   
   const submessage = [
-    "Hello World!",
-    "Why do I have to be the sub message?",
-    "Welcome to my website!",
     "Under Construction!",
-    "Operating at partial capacity since 2024!",
-    "const subtitle = {message}!"
+    "Operating at partial capacity since 2024!"
   ]
 
   const submessageSelector = Math.floor(Math.random() * submessage.length);
@@ -29,6 +25,7 @@ export default function Layout() {
 
   return (
     <div className='layout'>
+
       <div className='layout-banner'>
         <h1>WELCOME!</h1>
         <h2>{submessage[submessageSelector]}</h2>

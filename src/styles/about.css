@@ -9,7 +9,7 @@
   padding: 6px;
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -17,40 +17,49 @@
   color: yellow;
 }
 
-/* --- Index Page --- */
+/* --- Who Am I? Page --- */
 
-.about-index {
+.about-index p {
+  margin-bottom: 20px;
+}
+
+.about-index-image {
+  width: 30%;
+  border: 3px solid yellow;
+  border-radius: 10px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.about-index-intro {
+  text-align: left;
+}
+
+.about-index-section {
+  margin: 0 auto 80px auto;
+  
+}
+
+.about-index-section h1 {
+  margin-top: 0;
+}
+
+/* --- Experience Page --- */
+
+.about-experience-card {
   margin: 20px;
 }
 
-/* --- Qualifications Page --- */
-
-.about-qualifications {
-  margin: 20px;
-}
-
-.about-qualifications-card {
-  margin: 20px;
-}
-
-.about-qualifications-card h3 {
+.about-experience-card h3 {
   color: yellow;
-  font-size: 1.6rem;
-}
-
-.about-qualifications-card p {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 /* --- Skills Page --- */
 
-.about-skills {
-  margin: 20px;
-}
-
 .about-skills-container {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(3, 33%);
   justify-items: center;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -79,6 +88,13 @@
   text-decoration: none;
 }
 
+.about-skills-misc h2 {
+  border-bottom: 2px solid yellow;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
 .about-skills-softskills {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -89,7 +105,6 @@
   margin-top: 40px;
   margin-bottom: 40px;
   text-align: left;
-  width: 70%;
 }
 
 .about-skilldetails a {
@@ -110,7 +125,6 @@
 .about-skilldetails-container h1 {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-bottom: 20px;
   border-bottom: solid 2px yellow;
 }
 
@@ -171,7 +185,7 @@
   /* --- Personal Page --- */
 
 .about-personal {
-  margin: 20px;
+
 }
 
 .about-personal p {
@@ -181,13 +195,18 @@
   width: 90%;
 }
 
+.about-personal hr {
+  display: none;
+  color: yellow;
+}
+
 .about-personal-container {
   display: grid;
   grid-template-columns: repeat(2, 50%);
 }
 
 .about-personal-image {
-  width: 50%;
+  width: 100%;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -202,20 +221,110 @@
 
 /* @media screen size - Large */
 @media only screen and (min-width: 992px) and (max-width: 1199.999px) {
+  
+  .about-layout-nav a {
+    font-size: 1.4rem;
+  }
 
+  .about-qualifications-card h3 {
+    color: yellow;
+    font-size: 1.65rem;
+  }
 }
 
 /* @media screen size - Medium */
 @media only screen and (min-width: 768px) and (max-width: 991.999px) {
 
+  .about-layout-nav a {
+    font-size: 1.5rem;
+  }
+
+  .about-qualifications-card h3 {
+    color: yellow;
+    font-size: 1.5rem;
+  }
 }
 
 /* @media screen size - Small */
 @media only screen and (min-width: 576px) and (max-width: 767.999px) {
+  
+  .about-layout-nav a {
+    font-size: 1rem;
+  }
 
+  .about-index-intro {
+    text-align: center;
+  }
+
+  .about-index-image {
+    width: 40%;
+    float: none;
+  }
+
+  .about-qualifications-card h3 {
+    color: yellow;
+    font-size: 1.4rem;
+  }
+
+  .about-personal p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .about-personal hr {
+    display: block;
+  }
+  
+  .about-personal-container {
+    grid-template-columns: 100%;
+  }
+  
+  .about-personal-image {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 /* @media screen size - Extra Small */
 @media only screen and (max-width: 575.999px) {
+  
+  .about-layout-nav a {
+    font-size: 0.8rem;
+  }
 
+  .about-index-intro {
+    text-align: center;
+  }
+
+  .about-index-image {
+    width: 50%;
+    float: none;
+  }
+
+  .about-qualifications-card h3 {
+    color: yellow;
+    font-size: 1.3rem;
+  }
+  
+  .about-personal p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .about-personal hr {
+    display: block;
+  }
+  
+  .about-personal-container {
+    grid-template-columns: 100%;
+  }
+  
+  .about-personal-image {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }

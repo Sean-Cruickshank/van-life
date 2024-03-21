@@ -4,6 +4,7 @@ export default function NotFound() {
   
   const location = useLocation();
   const pathname = location.pathname.substring(1);
+  const returnpath = pathname.split('/')[0];
   
   return(
     <div>
@@ -13,8 +14,9 @@ export default function NotFound() {
 
       <p className='notfound-text'>Sorry, <span className='notfound-pathname'>{pathname}</span> doesn't exist! I really hope you are just testing the page and I haven't made a typo!</p>
 
-      <Link className='notfound-link' to='/'>Return to Home</Link>
-
+      {returnpath === 'about' 
+        ? <Link className='notfound-link' to='/about/'>Return to About Me</Link>
+        : <Link className='notfound-link' to='/'>Return to Home</Link>}
     </div>
     
   )

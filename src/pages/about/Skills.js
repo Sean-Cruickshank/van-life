@@ -15,24 +15,30 @@ export default function HardSkills() {
   })
 
   return (
-    <div className='about-skills'>
-      <h1>--- Hard Skills ---</h1>
-      <p>Blurb about my experience with web development. Talk about what your interests are and your plans for the future</p>
+    <div className='about-skills container'>
+      <h1>Hard Skills</h1>
+      <p>I have compiled a list of all the skills I have worked with enough to feel confident using. Some of these are further along than others, but I would be happy to work with any of them.</p>
+      <p>Each skills has it's own seperate page where you can learn more about my experience and what I have planned for the future!</p>
+      <p>I hope to expand this list as much as possible over the next few years!</p>
       <div className='about-skills-container'>
         {skillElement}
       </div>
 
       <div className='about-skills-misc'>
-        <h2>- Miscellaneous -</h2>
-        <p>Versioning with GitHub</p>
+        <h2>Miscellaneous</h2>
+        <p>A few extra things that couldn't fill out a page by themselves, but I thought were worth mentioning:</p>
+        <p>Versioning with Git and GitHub</p>
         <p>Mobile App Development with Android Studio</p>
         <p>Networking - CCNA Level 6</p>
         <p>IT Service Management - ITIL</p>
+        <p>Experience with Agile methodology</p>
       </div>
       
       <div className='about-skills-softskills'>
-        <h1>--- Soft Skills ---</h1>
-        <p>Blurb about soft skills</p>
+        <h1>Soft Skills</h1>
+        <p>I enjoy working in a team and have been told I do a good job of communicating my ideas with others</p>
+        <p>I love to learn new things, and am always pushing myself to improve and learn from others</p>
+        <p>During the final year project for my degree I took on a lot of the leadership roles for my team. I ended up being team leader for the second half of the project because my team liked my approach so much!</p>
       </div>
       
     </div>

@@ -15,25 +15,19 @@ export default function AboutLayout() {
           style={({ isActive }) => isActive ? styles : null}
           to='/about/'
           end>
-            About Me
+            Who Am I?
         </NavLink>
 
         <NavLink
           style={({ isActive }) => isActive ? styles : null}
-          to='qualifications'>
-            Qualifications
+          to='experience'>
+            Experience
         </NavLink>
 
         <NavLink
         style={({ isActive }) => isActive ? styles : null}
         to='skills'>
           Skills
-        </NavLink>
-
-        <NavLink
-        style={({ isActive }) => isActive ? styles : null}
-        to='personal'>
-          Personal
         </NavLink>
 
       </div>
