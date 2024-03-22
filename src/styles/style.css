@@ -1,7 +1,7 @@
 /* --- Global --- */
 
 html {
-  background: repeating-linear-gradient(130deg, lightblue 0%, lightblue 800px,  #febd71 800px, lightgreen 3200px);
+  background: linear-gradient(180deg, #febd71 0px, lightblue 300px, lightblue 80%, #febd71 100%);
   color: #333;
   font-family: inter, sans-serif;
 }
@@ -16,15 +16,19 @@ html {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 2rem;
   line-height: 150%;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 4rem;
+  font-family: Agency FB, sans-serif;
+  text-transform: uppercase;
   margin: auto auto 20px auto;
-  border-bottom: 2px solid yellow;
+  border-bottom: 3px solid #333;
   width: max-content;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 h2 {
@@ -112,7 +116,7 @@ a {
 }
 
 .layout-social-icon {
-  color: lightgray;
+  color: #febd71;
   font-size: 2rem;
   margin: auto;
   padding-left: 24px;
@@ -131,20 +135,20 @@ nav {
 }
 
 .nav-active {
-  border: solid 3px yellow;
+  border: solid 5px #333;
 }
 
 nav a {
   margin: auto;
   padding: 6px;
-  color: white;
+  color: #333;
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: yellow;
+  opacity: 0.7;
 }
 
 .layout-outlet {
@@ -245,7 +249,7 @@ footer p {
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
 
   h1 {
@@ -327,7 +331,7 @@ footer p {
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   h1 {
@@ -409,7 +413,7 @@ footer p {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   h1 {

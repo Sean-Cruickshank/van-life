@@ -1,15 +1,29 @@
 /* --- Home Page --- */
 
-.home h1 {
-  font-size: 5rem;
-  margin-bottom: 40px;
-  border: none;
-  
+.home {
+  margin-top: 0;
+}
+
+.home-title-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .home-title {
-  font-size: 20rem !important;
-  opacity: 0.3;
+  font-size: 9rem;
+  font-family: Agency FB;
+  padding: 0;
+  border-bottom: 4px solid #333;
+  margin-bottom: 40px;
+}
+
+.home-subtitle {
+  font-family: Agency FB;
+  font-size: 4rem !important;
+  opacity: 0.6;
+  border: none;
+  margin-bottom: 100px;
 }
 
 .home-section {
@@ -18,7 +32,6 @@
 
 .home-section p {
   margin-bottom: 10px;
-  font-size: 2rem;
 }
 
 /* --------------------------------------------- */
@@ -31,6 +44,16 @@
 /* @media screen size - Large */
 @media only screen and (min-width: 992px) and (max-width: 1199.999px) {
   
+  .home-title {
+    font-size: 7rem !important;
+  }
+  
+  .home-subtitle {
+    font-size: 4rem !important;
+    opacity: 0.6;
+    border: none;
+  }
+  
   .home h1 {
     font-size: 2.85rem;
   }
@@ -38,6 +61,16 @@
 
 /* @media screen size - Medium */
 @media only screen and (min-width: 768px) and (max-width: 991.999px) {
+  
+  .home-title {
+    font-size: 7rem !important;
+  }
+  
+  .home-subtitle {
+    font-size: 4rem !important;
+    opacity: 0.6;
+    border: none;
+  }
   
   .home h1 {
     font-size: 2.7rem;
@@ -47,6 +80,16 @@
 /* @media screen size - Small */
 @media only screen and (min-width: 576px) and (max-width: 767.999px) {
   
+  .home-title {
+    font-size: 7rem !important;
+  }
+  
+  .home-subtitle {
+    font-size: 4rem !important;
+    opacity: 0.6;
+    border: none;
+  }
+  
   .home h1 {
     font-size: 2.55rem;
   }
@@ -55,6 +98,16 @@
 
 /* @media screen size - Extra Small */
 @media only screen and (max-width: 575.999px) {
+  
+  .home-title {
+    font-size: 3rem !important;
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem !important;
+    opacity: 0.6;
+    border: none;
+  }
   
   .home h1 {
     font-size: 2.4rem;

@@ -11,7 +11,12 @@ export default function Home() {
   return (
     <div className="home container">
       <div className='home-section'>
-        <h1 className='home-title'>Hey!</h1>
+        <div className='home-title-container'>
+          <h1 className='home-title'>Sean Cruickshank</h1>
+          </div>
+          <h2 className='home-subtitle'>Web Developer</h2>
+        
+        <p>Hey there!</p>
         <p>I'm Sean, and I am a IT graduate and junior web developer based in Auckland, New Zealand</p>
         <p>I am looking to meet new people and build my skills in front-end and back-end web design</p>
       </div>
@@ -54,7 +59,7 @@ export default function Home() {
       
       <div className='home-section'>
         <h1>Getting in contact</h1>
-        <p>If you think I would make a greate addition to your team, feel free to get in contact!</p>
+        <p>If you think I would make a greate addition to your team, feel free to reach out!</p>
         <p>I am available by email, and on social media</p>
         <p>Feel free to send me any questions you have and I will try to respond as soon as possible!</p>
         <div

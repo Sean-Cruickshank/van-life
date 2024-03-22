@@ -19,19 +19,19 @@ export default function Footer() {
         <Link
           onClick={toTop}
           className='footer-nav-link'
-          to='/about'
+          to='/about/'
         >About Me</Link>
 
         <Link
           onClick={toTop}
           className='footer-nav-link'
-          to='/portfolio'
+          to='/portfolio/'
         >My Projects</Link>
 
         <Link
           onClick={toTop}
           className='footer-nav-link'
-          to='/contact'
+          to='/contact/'
         >Contact</Link>
       </div>
 
