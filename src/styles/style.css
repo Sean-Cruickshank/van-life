@@ -1,8 +1,8 @@
 /* --- Global --- */
 
 html {
-  background-color: black;
-  color: white;
+  background: repeating-linear-gradient(130deg, lightblue 0%, lightblue 800px,  #febd71 800px, lightgreen 3200px);
+  color: #333;
   font-family: inter, sans-serif;
 }
 
@@ -29,6 +29,9 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  margin: auto auto 10px auto;
+  border-bottom: 2px solid yellow;
+  width: max-content;
 }
 
 a {
@@ -90,13 +93,14 @@ a {
   color: yellow;
   background-color: rgba(0, 0, 0, 0.7);
   width: max-content;
+  border: none;
 }
 
 .layout-social {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: yellow;
+  background-color: black;
   margin-bottom: 0px;
   height: 50px;
 }
@@ -108,7 +112,7 @@ a {
 }
 
 .layout-social-icon {
-  color: black;
+  color: lightgray;
   font-size: 2rem;
   margin: auto;
   padding-left: 24px;
@@ -184,8 +188,13 @@ footer p {
   text-decoration: underline;
 }
 
-.footer-totop:hover {
+.footer-totop {
   color: yellow;
+  padding: 3px;
+  border: solid 1px yellow;
+}
+
+.footer-totop:hover {
   cursor: pointer;
 }
 

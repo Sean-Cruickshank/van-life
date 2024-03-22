@@ -20,7 +20,7 @@ export default function About() {
       </div>
 
       <div className='about-index-section'>
-        <h1>What I want in a Job</h1>
+        <h1>What I'm Looking for</h1>
 
         <p>I am mostly focused on working with JavaScript and React at the moment, but would like to pick up as many new skills as I can. Somewhere I can use what I know, alongside something new would be a great challenge for me!</p>
         <p>My ideal job at the moment would be somewhere I can grow my skills while I become familiar with the day to day activities of a web developer.</p>

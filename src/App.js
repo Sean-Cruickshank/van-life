@@ -6,8 +6,6 @@ import AboutLayout from './pages/about/AboutLayout'
 import Experience from './pages/about/Experience'
 import Skills from './pages/about/Skills'
 import SkillsDetails from './pages/about/SkillsDetails'
-import SoftSkills from './pages/about/SoftSkills'
-import Personal from './pages/about/Personal'
 import Portfolio from './pages/Portfolio'
 import PortfolioDetails from './pages/PortfolioDetails'
 import Contact from './pages/Contact'
@@ -25,8 +23,6 @@ export default function App() {
             <Route path='experience' element={<Experience />} />
             <Route path='skills' element={<Skills />} />
             <Route path='skills/:id' element={<SkillsDetails />} />
-            <Route path='skills/soft-skills' element={<SoftSkills />} />
-            <Route path='personal' element={<Personal />} />
           </Route>
 
           <Route path='portfolio' element={<Portfolio />} />

@@ -25,11 +25,6 @@ export default function Layout() {
 
   return (
     <div className='layout'>
-
-      <div className='layout-banner'>
-        <h1>WELCOME!</h1>
-        <h2>{submessage[submessageSelector]}</h2>
-      </div>
       
       <SocialNav />
 

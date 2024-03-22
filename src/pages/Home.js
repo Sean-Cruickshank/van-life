@@ -1,29 +1,22 @@
-import portrait from '../images/portrait.png'
 import { Link } from 'react-router-dom'
 
 export default function Home() {
   
   //Moves the user to near the top of the page when clicking the "Learn More" buttons
   function focus() {
-    document.documentElement.scrollTop = 300;
-    document.body.scrollTop = 300;
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
   }
   
   return (
     <div className="home container">
-      <div className="home-sectionA">
-        <div>
-          <img className='home-image' src={portrait} />
-        </div>
-
-        <div className='home-sectionA-text'>
-          <h1>Hey there!</h1>
-          <p>I'm Sean, and I am a IT graduate and junior web developer based in Auckland, New Zealand</p>
-          <p>I am looking to meet new people and build my skills in front-end and back-end web design</p>
-        </div>
+      <div className='home-section'>
+        <h1 className='home-title'>Hey!</h1>
+        <p>I'm Sean, and I am a IT graduate and junior web developer based in Auckland, New Zealand</p>
+        <p>I am looking to meet new people and build my skills in front-end and back-end web design</p>
       </div>
 
-      <div className='home-sectionB'>
+      <div className='home-section'>
         <h1>A bit about me</h1>
         <p>I am a 27 year old developer from New Zealand looking for web development jobs</p>
         <p>I began to persue web development as a career in 2018 and gained my bachelor's degree in IT in 2021</p>
@@ -41,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className='home-sectionB'>
+      <div className='home-section'>
         <h1>My portfolio</h1>
         <p>I am currently building out a series of projects to showcase my abilities and learn new skills</p>
         <p>These projects are available to view here!</p>
@@ -59,7 +52,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className='home-sectionB'>
+      <div className='home-section'>
         <h1>Getting in contact</h1>
         <p>If you think I would make a greate addition to your team, feel free to get in contact!</p>
         <p>I am available by email, and on social media</p>
