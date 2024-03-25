@@ -6,10 +6,10 @@ export default function About() {
 
       <h1>Who Am I?</h1>
       
+      <div>
+        <img className='about-index-image' src={portrait} />
+      </div>
       <div className="about-index-section about-index-intro">
-        <div>
-          <img className='about-index-image' src={portrait} />
-        </div>
           
           <p>My name is Sean Cruickshank and I am a graduate web developer based in Auckland, New Zealand.</p>
 

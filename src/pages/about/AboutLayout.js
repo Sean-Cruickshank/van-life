@@ -3,7 +3,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 export default function AboutLayout() {
   
   const styles = {
-    color: "yellow",
+    color: "dimgrey",
     textDecoration: "underline"
   }
   

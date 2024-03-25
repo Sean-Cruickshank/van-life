@@ -25,16 +25,17 @@ h1 {
   font-family: Agency FB, sans-serif;
   text-transform: uppercase;
   margin: auto auto 20px auto;
-  border-bottom: 3px solid #333;
+  border-bottom: 3px solid darkcyan;
   width: max-content;
   padding-left: 40px;
   padding-right: 40px;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 3rem;
+  font-family: Agency FB, sans-serif;
   margin: auto auto 10px auto;
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid darkcyan;
   width: max-content;
 }
 
@@ -43,25 +44,26 @@ a {
 }
 
 .button-learnmore {
-  background-color: yellow;
-  font-size: 1.3rem;
-  width: 180px;
-  height: 45px;
+  background-color: darkcyan;
+  width: 240px;
+  height: 60px;
   margin: 40px auto 20px auto;
   border-radius: 5px;
-  box-shadow: inset -5px -5px 10px -3px rgba(0, 0, 0, 0.7);
+  border: solid 2px white;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
 }
 
 .button-learnmore:hover {
-  opacity: 0.7;
-  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0px 5px 5px -2px rgba(0, 0, 0, 0.7);
+  opacity: 0.9;
 }
 
 .button-linktext {
   text-decoration: none;
-  color: black;
-  width: 180px;
-  height: 45px;
+  font-size: 1rem;
+  color: white;
+  width: 240px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,31 +75,6 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-.layout-banner {
-  background-image: url(../images/banner1.png);
-  background-position: center;
-  background-size: 200%;
-  background-repeat: no-repeat;
-}
-
-.layout-banner h1 {
-  font-size: 9rem;
-  margin: 60px auto 10px auto;
-  font-style: italic;
-  border: none;
-}
-
-.layout-banner h2 {
-  font-size: 2rem;
-  margin: auto;
-  margin-bottom: 120px;
-  padding: 4px;
-  color: yellow;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: max-content;
-  border: none;
 }
 
 .layout-social {
@@ -129,7 +106,7 @@ a {
 
 nav {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -163,7 +140,6 @@ footer {
   width: 100%;
   background-color: #0A0A0A;
   color: dimgray;
-  border-top: 2px solid #CCC;
 }
 
 footer p {
@@ -183,7 +159,7 @@ footer p {
 
 .footer-nav-link {
   font-size: 1rem;
-  color: lightgray;
+  color: #febd71;
   text-decoration: none;
   padding: 10px;
 }
@@ -193,25 +169,26 @@ footer p {
 }
 
 .footer-totop {
-  color: yellow;
+  color: #febd71;
   padding: 3px;
-  border: solid 1px yellow;
+  border: solid 1px #febd71;
 }
 
 .footer-totop:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 /* --- 404 Error Page --- */
 
 .notfound-title {
-  font-size: 3rem;
   margin-bottom: 10px;
-  color: yellow;
+  color: #333;
 }
 
 .notfound-subtitle {
   margin-bottom: 80px;
+  border: none;
 }
 
 .notfound-text {
@@ -224,14 +201,14 @@ footer p {
 
 .notfound-link {
   font-size: 1.4rem;
-  color: yellow;
+  color: darkcyan;
   text-decoration: none;
   font-weight: bold;
 }
 
 .notfound-link:hover {
   text-decoration: underline;
-  color: yellow;
+  opacity: 0.7;
 }
 
 /* --------------------------------------------- */
@@ -253,15 +230,25 @@ footer p {
   }
 
   h1 {
-    font-size: 1.9rem;
+    font-size: 3.4rem;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 2.55rem;
   }
 
   a {
     font-size: 0.95rem;
+  }
+
+  .button-learnmore {
+    width: 240px;
+    height: 60px;
+  }
+
+  .button-linktext {
+    width: 240px;
+    height: 60px;
   }
 
   .layout-banner h1 {
@@ -313,10 +300,6 @@ footer p {
     font-size: 1rem;
   }
 
-  .notfound-title {
-    font-size: 2.75rem;
-  }
-
   .notfound-link {
     font-size: 1.3rem;
   }
@@ -335,30 +318,25 @@ footer p {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
   }
 
   h2 {
-    font-size: 1.35rem;
+    font-size: 2.1rem;
   }
 
   a {
     font-size: 0.9rem;
   }
 
-  .layout-banner h1 {
-    font-size: 7rem;
-    margin-top: 55px;
+  .button-learnmore {
+    width: 220px;
+    height: 55px;
   }
 
-  .layout-banner h2 {
-    font-size: 1.5rem;
-    margin-bottom: 110px;
-  }
-
-  .layout-banner h2 {
-    font-size: 1.25rem;
-    margin-bottom: 80px;
+  .button-linktext {
+    width: 220px;
+    height: 55px;
   }
 
   .layout-social {
@@ -395,10 +373,6 @@ footer p {
     font-size: 1rem;
   }
 
-  .notfound-title {
-    font-size: 2.5rem;
-  }
-
   .notfound-link {
     font-size: 1.2rem;
   }
@@ -417,25 +391,25 @@ footer p {
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.65rem;
   }
 
   a {
     font-size: 0.85rem;
   }
-  
-  .layout-banner h1 {
-    font-size: 5rem;
-    margin-top: 40px;
+
+  .button-learnmore {
+    width: 200px;
+    height: 50px;
   }
 
-  .layout-banner h2 {
-    font-size: 1.25rem;
-    margin-bottom: 80px;
+  .button-linktext {
+    width: 200px;
+    height: 50px;
   }
 
   .layout-social {
@@ -473,10 +447,6 @@ footer p {
     font-size: 1rem;
   }
 
-  .notfound-title {
-    font-size: 2.25rem;
-  }
-
   .notfound-link {
     font-size: 1.1rem;
   }
@@ -499,21 +469,21 @@ footer p {
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   a {
     font-size: 0.8rem;
   }
 
-  .layout-banner h1 {
-    font-size: 3.5rem;
-    margin-top: 30px;
+  .button-learnmore {
+    width: 180px;
+    height: 45px;
   }
 
-  .layout-banner h2 {
-    font-size: 1rem;
-    margin-bottom: 60px;
+  .button-linktext {
+    width: 180px;
+    height: 45px;
   }
 
   .layout-social {
@@ -549,10 +519,6 @@ footer p {
 
   .footer-totop {
     font-size: 0.9rem;
-  }
-
-  .notfound-title {
-    font-size: 2rem;
   }
 
   .notfound-link {

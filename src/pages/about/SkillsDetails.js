@@ -73,13 +73,13 @@ export default function HardSkillsDetails() {
       <div className='about-skilldetails-chart'>
         <h2>Skill Chart</h2>
         <p>I have ranked my confidence with each skill on a scale of 1 to 5</p>
-        <p>Hopefully this gives a good idea of how confident I feel with each of the skills I have listed here!</p>
+        <p>Hopefully this gives a good idea of how confident I feel with each skill!</p>
       </div>
 
       <table className='about-skilldetails-table'>
         <thead>
           <tr>
-            <th>Proficiency &rarr;</th>
+            <td>Proficiency &rarr;</td>
             <th>1</th>
             <th>2</th>
             <th>3</th>
